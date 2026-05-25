@@ -1,0 +1,73 @@
+Idée de projet :
+- Appli pour apprendre la chimie avec laquelle tu as des éléments chimiques que tu peux manipuler dans l'appli et voir le résultat. (et peut être une version pour la physique.
+- Site de l'ENI pour référencer les projets des élèves et en piocher certains qui peuvent être utiles, les projets sont hébergés dans des sites comme github ou déployer sur Streamlit par exemple. On peut y trouver des projets qui peuvent servir pour l'administration ou dans le quotidien (comme l'appli plouf plouf). Les objectifs : les étudiants apprennent à déployer leur projet, servir de vitrine, trouver des projets utiles pour certaines tâches, s'inspirer de ces projets (plus tard, plateforme pour rendre les projets et les présenter/noter) 
+- Appli pour créer des formulaires de collecte de données sur Streamlit (entrée audio, vidéo et fichier comprise). On peut se connecter en tant que créateur de formulaire pour créer le formulaire puis l'exporter (structure du formulaire + adresse du créateur où envoyer les infos) et envoyer une "invitation" à compléter le formulaire à tous les participants à qui il veut l'envoyer (formulaire exporté + identifiant créé automatiquement) OU participant qui reçoit l'"invitation" et l'insère dans l'appli pour participer à l'enquête puis l'appli envoie les informations au créateur en se servant des données de l'invitation. 
+- Apprendre Kicad et développer une pcb pour une machine à nourrir les poissons.
+- Appli qui prend un pdf et créer un workbook interactif à l'aide de l'IA orienté débouchés. (on donne le pdf et l'objectif d'enseignement et il donne le workbook pour atteindre cet objectif) 
+- Un site pour la CERISE (référence les cours, les projets réalisés, les compétitions auxquelles on participe etc, intègre des outils utiles en relation avec le club genre inscription, division en équipe etc)
+- Une appli pour gérer mes idées de projets et en garder la progression et qui formalise l'idée selon mon mode de pensée. Et quand je lui demande ce que je peux faire, il peut me proposer des sous-étapes de projets que je peux faire avec la possibilité de modifier à chaque étape. (mettre une interface pour hiérarchiser mes projets visuellement). 
+- Une application liée à mon appli de gestion d'idée qui suit les étapes de modélisation de logiciel (UML et tout ça) pour concevoir l'app avec moi (voir l'app d'UML que j'ai faite) et qui peut déjà me proposer le code pour certaines parties de mon projet ou une structure d'appli avant le code, que je pourrais modifier, copier et utiliser. (chercher si mon modèle deepseek coder peut faire ça) 
+- une application qui utilise l'appli de suivi d'idée pour les loguer en ligne dans un blog, sur git etc. 
+- Lister tous les concepts que les membres de CERISE doivent connaître pour faire une carte Arduino-like et préparer des cours pour chacun de ces concepts.
+- Une application type messenger crypté pour communiquer de manière sécurisée à distance (possible intégration de mon assistant IA)
+- Créer un wrapper autour des outils de mon assistant IA pour qu'il puisse avoir un contrôle très précis de ces outils (comme appeler une méthode) et même pour pouvoir utiliser d'autres outils (que j'aurais prises sur github par exemple). 
+Avec un log built-in qui permettrait de savoir dans quel ordre on a appelé les outils, le flux de données pour plus tard donner à l'assistant la possibilité d'"apprendre" à utiliser les outils pour atteindre un objectif pour lequel il n'a pas encore de guidelines (il me dit ce qu'il va faire avant de le faire).
+- Un pipeline pour transformer des niveaux GD brut en données d'entraînement puis un algorithme d'entraînement et de génération pour passer de données à gameplay brut.
+- Un outil pour assistant IA afin de "s'exprimer" en affichant des données à l'écran (tableau d'affichage, liste, toast pour code/json/etc, fichier ou lien) ou des messages (bulles de dialogues, accès au tts etc) mais aussi pour communiquer avec lui (entrée textuelle, vocale, caméra et etc plus tard) et voir ses états via les logs
+- un système pour exporter/importer la mémoire, les données et les états de mon assistant comme ça, je peux héberger une version minimale de lui en ligne et communiquer avec lui depuis mon téléphone quand mon ordi n'est pas allumé. Il renverra les données et tout à mon ordi ensuite et nettoiera ça mémoire après.
+- Hub pour sujet d'examen ENI pour chercher, poster et télécharger facilement des sujets d'examens passés de l'ENI.
+- Un assistant de révision à qui on donne les sujets des années passées + les cours + l'objectif de l'apprentissage (pour ne pas qu'ils étudient juste pour passer les examens mais aussi pour se préparer aux exigences du monde professionnel). 
+- Un système qui apprend à partir des appels d'outils de mon assistant IA à créer des "routines" et des "procédures" pour rendre l'exécution rapide et ne pas avoir à créer l'enchaînement des outils du début à la fin mais réutilser ou faire des variations. Il y a donc un système de décision qui interprète la requête utilisateur, écrit un script d'appel d'outils, appelle un outil pour présenter ce script à l'utilisateur puis appelle les outils dans l'ordre d'après le script. Il a accès à un outil d'appel de modèle IA et à un registre de prompts avec certains prompts "dynamiques" dont il devrait pouvoir spécifier les arguments. 
+- Utiliser ou créer un OS qui n'a que le strict minimum consacrer uniquement à mon assistant IA et sur lequel il a un contrôle presque total. Et mon assistant intègrera presque tous les outils nécessaires, et sera lancé dès le démarrage de l'OS. Si il me manque un outil je pourrais en créer avec mon assistant IA.
+- un outil qui reçoit une requête et la reformule en un prompt structuré 
+- [ ] Idée de projet : Caméra + IA pour interpréter les mudras,
+- [ ] idée de projet de robotique : robot cafard (robot qui fuit la lumière), alerte de proximité pour introvertis, baguette magique (permet d'interagir dans un monde virtuel), la plante qui crie quand elle a soif. 
+- **Idée d'app** : app pour brain dump vocal et création automatique d'un fichier dans "*inbox*"
+-  [ ] **Structure Web TCG** : Définir l'indexation et l'architecture du lore sur le site pour faciliter la navigation.
+- [ ] **IA / RAG TCG** : Vectorisation de la base de données du lore pour créer un assistant capable de suivre et d'aider à la rédaction de l'histoire.
+- [ ] **Idée de projet** : Créer un jeu de société style *Cup head : The Fast Rolling Dice Game* qu'on peut étendre avec les cartes de mon TCG 
+- [ ] **Idée de projet** : Écrire un script pour lire et écrire des fichiers midi avec la possibilité d'utiliser un flux de paroles comme instrument (le script chante les paroles toutes seules)
+- [ ] **Organisation** : Créer un espace où je peux mettre mes idées d'expansion pour mes projets comme mon TCG. 
+- [ ] **idée intéressante** : utiliser NotebookLM pour apprendre le BA, le data science est avec les ressources que j'ai trouvé par hasard en ligne. 
+- [ ] **idée intéressante** : utiliser NotebookLM pour faire la diapo, les ressources pour répondre aux questions et préparer ma présentation orale 
+- [ ] idée intéressante : utiliser NotebookLM pour organiser mes notes (ou directement mon inbox) sur un projet 
+- [ ] idée intéressante : utiliser NotebookLM pour me faire des cours basé sur les tonnes de ressources que j'ai 
+- [ ] Faire un plan pour gagner de l'argent d'ici un mois et ensuite déterminer quoi faire avec (acheter des ingrédients pour apprendre à cuisiner etc)
+- [ ] idée de projet : un plateforme éducative qui permet à l'apprenant d'avoir des exercices sur-mesure (niveau, matière, etc) pour réviser 
+- [ ] idée faire une véritable étude de marché pour mon projet UI UX : clustering de client (et mettre dans un portfolio)
+- [ ] Continuer mon agent IA en vérifiant la performance du dispositif (temps d'attente entre envoi du prompt et la réponse finale) et intégrer mon projet d'IA "qui se fait toute seule" dans ce projet. 
+- [ ] Déterminer la suite de mon parcours avec Kaggle
+- [ ] Déterminer ce qui est superflu dans raspberry pi n'avoir que le strict minimum. 
+- [ ] Idée de projet : quand je gagnerai de l'argent (pendant que je suis à l'université), investir dans une bassine pour faire de la pisciculture et demander à mon cousin de s'en occuper pendant que je suis à l'université. 
+- Applications pour gérer les horaires avec les salles pour les clubs.  
+- Déterminer un format intermédiaire entre intention et outils
+- Webscraper pour trouver du job de façon optimale et peut être la connecter à mon appli workbook pour qu'il propose des exercices qui collent aux offres. 
+- Trouver la prochaine hype après l'IA
+- Jeu action exploration Ben 10
+- Jeu simulation : Receveur simulateur
+- Jeu rpg action : Mighty Magisword
+- Jeu Crafting, management scientifique et Post apo à la Dr Stone : de l'âge de pierre à la conquête spatiale avec une mécanique de intrants + procédés = produits. 
+- Une appli wishlist pour quand je serai indépendant qui me permettrait de mettre les trucs que je voudrais avoir avec leur prix et le moyen de les obtenir (abonnement Crunchyroll, matelas de meilleure qualité, kit de nettoyage, etc...), peut-être connecté à l'API de ma banque pour que je sache ce que je peux déjà acheter compte tenu de mes dépenses quotidiennes et obligatoires
+- Créer une app pour garder une trace des changements dans le code (ou d'autres choses) pour garder une trace des raisons pour lesquelles on a fait le changement et pour des informations à garder à l'esprit après le changement.
+- Appli de dessin en perspective qui dessine déjà la grille de perspective et qui nous permet de relier des points (et contrôler comment ils sont relié pour dessiner).
+- Appli pour lister le prix des ingrédients dans les fiches hebdomadaires.  
+- Créer un clone d'Obsidian en Python qui permet d'avoir son propre wiki en markdown et d'exécuter du code python.  
+- Super Ankhi : une application qui permet d'écrire des notes sur ses études en remplissant un formulaire facile à remplir en 15min. Fonctionnalités Avancées : une mascotte qui te fait culpabiliser ou te félicite en fonction de si tu y va souvent ou pas; option quiz : compléter les pointillés, faire correspondre, mini jeu; achievements. 
+- Faire de mon TCG un jeu de type Pokémon Go
+- Trouver un système pour évaluer la maturité d'une population afin de savoir s'il est possible de proposer des projets plus avancés à la localité.
+- Trouver un moyen de rendre les transports en commun gratuit. 
+- Un bot gestionnaire de téléchargement qui range les éléments téléchargé dans des dossiers spécifiques et permet de savoir leur emplacement automatiquement.  
+- Une société qui récupère les déchets et les recycle. Elle pourrait fabriquer des emballages recyclables et proposer à des commerçants de les utiliser et de les récupérer pour pouvoir les réutiliser.
+d'année r
+- Automatisation du rapport étudiant de projet de fin d'année de l'ENI : Créer le formulaire et le compléter, parcourir le fichier JSON et remplir le modèle de rapport
+- Assistant pour aider à suivre la Méthode 2TUP lorsque on travaille sur un projet de développement logiciel 
+- Appli qui interpréte un fichier  Json pour rendre dans un type d'UI particulier
+- Création d'un plugin de mobile money pour site Web
+- Créer un forum étudiant pour l'ENI
+- Workflow pour créer mon propre animé avec l'aide de mon Assistant IA 
+- Appli/fonctionnalités de mon assistant IA personnel pour le développement personnel : suivi d'objectif, tâches quotidiennes de développement 
+- Faire une application pour créer les cartes de mon TCG
+- Faire une application pour créer des formulaires
+- assistant IA
+- simulation spéciale: jeu sandbox pour mon IA "qui se fait toute seule" .
+- projet d'automatisation pour organiser mes photos et mes chansons (supprimer doublons et renommer avec nom d'album et artiste) 
