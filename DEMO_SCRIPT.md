@@ -1,7 +1,7 @@
-#⚙️ CONFIGURATION DES RÉSEAUX SANS FIL (Scénario de l'Hôtel)
+# ⚙️ CONFIGURATION DES RÉSEAUX SANS FIL (Scénario de l'Hôtel)
 Pour illustrer les états "Avant" et "Après" les mesures de sécurité, la configuration Wi-Fi des machines doit être gérée manuellement selon les étapes suivantes.
 
-##🔴 Phase 1 : Le Réseau Vulnérable (Réseau Ouvert)
+## 🔴 Phase 1 : Le Réseau Vulnérable (Réseau Ouvert)
 ###Sur l'Ordinateur Légitime (Réseau de l'Hôtel) :
 Activez le Point d'accès sans fil mobile (Hotspot) natif du système d'exploitation (Windows ou macOS).
 
@@ -13,12 +13,12 @@ Nom du réseau (SSID) : Hotel_Premium_Guest
 Sécurité : Sélectionnez Ouvert (Open / Aucun mot de passe). 
 Note : si l'OS exige une clé, définissez un mot de passe trivial connu du groupe (ex: 12345678).
 
-###Sur l'Ordinateur Attaquant :
+### Sur l'Ordinateur Attaquant :
 Préparez la configuration de votre partage de connexion avec exactement le même nom : `Hotel_Premium_Guest` en mode Ouvert.
 
 Laissez ce point d'accès désactivé au début de la démonstration.
 
-##🟢 Phase 2 : Le Réseau Sécurisé (Chiffrement fort)
+## 🟢 Phase 2 : Le Réseau Sécurisé (Chiffrement fort)
 Après constatation des risques, l'Ordinateur Légitime applique les contre-mesures techniques :
 
 * Accédez aux paramètres du point d'accès sans fil mobile de l'ordinateur légitime.
@@ -30,7 +30,7 @@ Type de sécurité : Choisissez WPA3-Personnel (SAE) (ou WPA2-Personnel selon la
 Clé de sécurité : Définissez un mot de passe fort (ex: HotelSecurity2026!).
 ```
 
-#🎬 DÉROULEMENT DE LA DÉMONSTRATION (Scénario de l'Exposé)
+# 🎬 DÉROULEMENT DE LA DÉMONSTRATION (Scénario de l'Exposé)
 Rôles affectés :
 * **Ordinateur A** : Serveur Légitime (Interface d'administration + Vrai Portail).
 
@@ -38,7 +38,7 @@ Rôles affectés :
 
 * **Ordinateur C** : Attaquant (Serveur de capture).
 
-###Partie A : Démonstration de la Vulnérabilité (État "Avant")
+### Partie A : Démonstration de la Vulnérabilité (État "Avant")
 - Démarrage des services :
 
   * Sur l'Ordinateur A (Admin) : 
@@ -61,7 +61,7 @@ Rôles affectés :
 
 - La Capture : **La victime saisit des identifiants de test**. **Les données s'affichent** instantanément en rouge **sur le terminal de l'Ordinateur C**.
 
-###Partie B : Application des Contre-mesures (État "Après")
+### Partie B : Application des Contre-mesures (État "Après")
 * **Correction Wi-Fi** : L'Ordinateur A applique la Phase 2 (WPA2/WPA3) sur son infrastructure sans fil.
 
 * **Correction Web** : Sur la console d'administration de l'Ordinateur A (http://localhost), activez l'interrupteur pour déployer l'en-tête HSTS.
